@@ -6,6 +6,11 @@
 
 # Screenshot
  
+# Form
 ![Customer form](form.png)
+# Backend View
 ![Backend Post](backend-post.png)
+
+# Single Post
+
 ![Single View](single-view.png)

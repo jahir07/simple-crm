@@ -8,8 +8,8 @@
 		$your_budget = get_post_meta( get_the_ID(),'your_budget', true );
 		$current_time = get_post_meta( get_the_ID(),'current_time', true );
 		?>
-		<b>Name:</b> 
-		<br><?php the_title() ?> <br>
+		<b>Name:</b> <br>
+		<?php the_title() ?> <br>
 		<?php if(!empty($your_email )) { ?>
 			<b>Your Email:</b> <br><?php echo esc_html( $your_email ) ?> <br>
 		<?php } ?>
